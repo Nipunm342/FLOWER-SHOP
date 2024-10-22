@@ -115,12 +115,21 @@ button:hover {
 .delivery {
     padding-top: 40px;
     padding-bottom: 40px;
-
+    justify-content: space-around;
     background-color: rgb(243, 236, 228);
 }
-#red_tuilip{
+
+#hot-deal {
     display: flex;
     align-items: center;
-    position: absolute;
-    margin: 60px 240px;
+    justify-content: space-around;
+    max-width: 75%;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#hot-deal .hot-deal-text {}
+
+.important {
+    color: red;
 }
