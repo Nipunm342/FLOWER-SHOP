@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-header {
+header,
+#hot-deal {
     background-color: rgba(229, 84, 115, 0.1);
+    margin-bottom: 40px;
 }
 
 .container {
@@ -75,7 +77,6 @@ button:hover {
 
 .flower-img {
     background-color: antiquewhite;
-
     padding: 30px 25px 0;
     height: 500px;
     display: flex;
@@ -102,7 +103,6 @@ button:hover {
 
 .delivery {
 
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,19 +117,52 @@ button:hover {
     padding-bottom: 40px;
     justify-content: space-around;
     background-color: rgb(243, 236, 228);
-}
 
-#hot-deal {
-    display: flex;
-    align-items: center;
     justify-content: space-around;
-    max-width: 75%;
-    width: 1440px;
-    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 40px;
+
 }
 
-#hot-deal .hot-deal-text {}
+#hot-deal .hot-deal-text h2 {
+    max-width: 445px;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #272727;
+
+}
+
+#hot-deal .hot-deal-img {
+    max-width: 318px;
+}
+
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+
+}
+
+#hot-deal.hot-deal-text {
+    width: 75%;
+    max-width: 550px;
+
+
+}
+
+.hot-deal-text {
+    text-align: center;
+    padding: 80px 0;;
+}
+
 
 .important {
-    color: red;
+    color: #E55473;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.6);
 }
