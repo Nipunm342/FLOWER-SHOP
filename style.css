@@ -39,8 +39,11 @@ header,
     color: #272727;
     margin-bottom: 16px;
     text-align: center;
+    font-family: Lato;
+    font-size: 40px;
 
 }
+
 
 button {
     border-radius: 8px;
@@ -66,7 +69,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 48px;
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
@@ -101,26 +104,20 @@ button:hover {
     text-align: center;
 }
 
-.delivery {
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    width: 75%;
-    max-width: 1440px;
-    margin: 0 auto;
-}
 
 .delivery {
     padding-top: 40px;
     padding-bottom: 40px;
     justify-content: space-around;
     background-color: rgb(243, 236, 228);
-
-    justify-content: space-around;
     align-items: center;
     margin-bottom: 40px;
+    display: flex;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+
 
 }
 
@@ -149,20 +146,72 @@ button:hover {
 #hot-deal.hot-deal-text {
     width: 75%;
     max-width: 550px;
-
-
 }
 
 .hot-deal-text {
     text-align: center;
-    padding: 80px 0;;
-}
+    padding: 80px 0;
 
+}
 
 .important {
     color: #E55473;
 }
 
+
+
+.instagram-text h2 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.instagram-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 p {
     color: rgba(39, 39, 39, 0.6);
+}
+
+.insta-img {
+
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+#newsletter {
+    margin: 128px 0;
+}
+
+.newsletter-main {
+    background-image: url(images/Rectangle\ 9.png);
+    padding: 122px 0;
+    width: 1440px;
+    margin: 0 auto;
+    
+}
+
+#newsletter-main form {
+    max-width: 800px;
+    margin: 20px auto;
+  
+  
+}
+
+#newsletter form input {
+    
 }
